@@ -1,0 +1,23 @@
+.container-fluid {
+  padding: 80px 100px;
+}
+.imgcover {
+  width: 100%;
+}
+.img-icon-size{
+  max-width: 100px;
+  max-height: 100px;
+}
+.navbar-rights{
+  padding-right: 100px;
+}
+#myCarousel {
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+.float-left {
+  float: left;
+  margin: auto;
+ }
