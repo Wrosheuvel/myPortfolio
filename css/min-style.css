@@ -1,0 +1,42 @@
+body, html {
+  height: 100%;
+}
+.container{
+  height: 100%;
+}
+.wallpaper {
+   background:#018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+#header {
+   padding: 14em 0 2em 0 ;
+   background-attachment: scroll;
+ }
+h1 {
+  font-size: 3em;
+  color: white;
+}
+p {
+  font-size: 1.25em;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+strong {
+  color: #014AA8;
+}
+h1 strong {
+  font-size: 5rem;
+}
+.progress {
+  width: 100%;
+}
+.progress-bar {
+  background-color: #001E5C;
+}
+h2 {
+  color: white;
+}
