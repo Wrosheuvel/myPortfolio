@@ -1,8 +1,8 @@
 body, html {
   height: 100%;
 }
-.container-fluid {
-  padding: 80px 100px;
+.container, .container-fluid{
+  padding: 75px 30px 0px 30px;;
   height: 100%;
 }
 .imgcover {
@@ -20,9 +20,19 @@ body, html {
 }
 ul {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0 0 0 0;
+}
+.row {
+
 }
 li {
-  position: inherit;
+position: inherit;
+  justify-content: space-around;
+  padding: 0 0 0 0;
 }
 .float-left {
   float: left;
@@ -37,6 +47,7 @@ li {
   padding-top: 3px;
  width: 19rem;
  position: relative;
+ margin-bottom: 10px;
  }
 
  .card:hover {
@@ -57,3 +68,27 @@ li {
    background-size: cover;
    height: 100%;
  }
+ #header {
+   padding: 10em 0 10em 0 ;
+   background-attachment: scroll;
+ }
+
+   #header br {
+     display: inline;
+   }
+h1 {
+  font-size: 3em;
+  color: white;
+
+}
+p {
+  font-size: 1.25em;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+strong {
+  color: #014AA8;
+}
