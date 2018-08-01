@@ -1,9 +1,12 @@
+
+
 body, html {
   height: 100%;
 }
 .container, .container-fluid{
   padding: 75px 30px 0px 30px;;
   height: 100%;
+
 }
 .imgcover {
   width: 100%;
@@ -64,9 +67,12 @@ position: inherit;
    font-size: 14px;
  }
  .wallpaper {
-   background:#018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
-   background-size: cover;
    height: 100%;
+   background: #3bd5cd;
+   background: -moz-linear-gradient(45deg, #3bd5cd 0%, #4fd5d1 50%, #17c3bd 51%, #0abcb3 100%);
+   background: -webkit-linear-gradient(45deg, #3bd5cd 0%,#4fd5d1 50%,#17c3bd 51%,#0abcb3 100%);
+   background: linear-gradient(45deg, #3bd5cd 0%,#4fd5d1 50%,#17c3bd 51%,#0abcb3 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bd5cd', endColorstr='#0abcb3',GradientType=1 );
  }
  #header {
    padding: 10em 0 10em 0 ;
@@ -91,4 +97,22 @@ a {
 }
 strong {
   color: #014AA8;
+}
+.my-col {
+  height: auto;
+  padding: -10px;
+
+}
+
+.card-body {
+  margin-bottom: 0px;
+}
+.card {
+ background: none;
+ color: black;
+ border-color: purple;
+ padding: 0px;
+}
+.card-text {
+  color: black;
 }
